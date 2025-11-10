@@ -49,9 +49,7 @@ The VerseCache script provides the following properties in the inspector:
 
 
 ## Other Notes
-Note that this script only provides the caching mechanism, and you'll need to customize it to fit your needs by tying it in with your game client code, asset downloader that checks the VerseCache for existing files first, etc.
-
-The VerseCache system is highly customizable and can be adapted to fit your specific needs. You can customize the encryption key and initialization vector, modify the cache file/path and input/output file/path, and safely store/get content.  Note that this script is a cache-only system, and you will need to tie it into your game client code and asset downloader to check the cache for an existing file first.  I highly reccommend using generated UUIDs as the cache filenames for server to client referencing.
+The VerseCache system is highly customizable and can be adapted to fit your specific needs. You can customize the encryption key and initialization vector, modify the cache file/path and input/output file/path, and safely store/get content.  Note that this script is a cache-only system, and you will need to tie it into your game client code and asset downloader to check the cache for an existing file first etc.  I highly reccommend using generated UUIDs as the cache filenames for server to client referencing.
 
 ### Contact
 If you have any questions or suggestions about VerseCache, please feel free to contact me via this GitHub profile.
